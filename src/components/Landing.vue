@@ -23,3 +23,50 @@ export default {
   // name: 'Landing'
 };
 </script>
+
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero-section {
+    background-image: url("../assets/desert_mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-rows: 1fr 50px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.search-bar {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    background-color: white;
+    height: 40px;
+    width: 500px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+</style>
