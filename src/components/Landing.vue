@@ -7,7 +7,7 @@
       <div id="hero-section">
         <div class="search-bar">
           <div class="search-icon">
-            <v-img src="search-1.svg" alt="" height="15px"></v-img>
+            <v-img src="../assets/search-1.svg" alt="" height="15px"></v-img>
           </div>
           <input type="text" placeholder="Search high-resolution photos">
         </div>
